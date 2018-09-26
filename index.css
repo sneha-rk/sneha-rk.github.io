@@ -1,0 +1,115 @@
+body, html{
+  margin:0;
+  padding:0;
+  height: 100%;
+  width: 100%;
+}
+
+body{
+  background-color: #fff;
+  background-image: url(background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  font-family: arial;
+
+  overflow-y: scroll;
+}
+
+
+
+.center-content{
+  width: 500px;
+  margin: 150px auto 0px;
+  padding: 0px 0px 20px 0px ;
+  height: auto;
+  border-radius: 5px;
+  background-color: #fff;
+  position: relative;
+
+}
+
+.profile-picture{
+  width: 150px;
+  position: absolute;
+  top: -75px;
+  border-radius: 100%;
+  left: 50%;
+  margin-left: -75px;
+  height: 150px;
+}
+
+
+#content-header h1{
+  padding-top: 100px;
+  margin: 0px;
+
+}
+
+#content-header p{
+  margin-top: 5px;
+  margin-bottom: 0px;
+  color: #8a8a8a;
+}
+
+.content{
+  width: 350px;
+  margin: 20px auto;
+}
+
+#content-header{
+  text-align: center;
+}
+
+.center-content-scroll{
+  box-sizing: border-box;
+  overflow-y: auto;
+  height: 100%;
+}
+
+#bottom-fix{
+  height: 75px;
+  position: relative;
+  background: transparent;
+}
+
+p{
+  line-height: 1.5;
+  margin: 0px;
+}
+
+a{
+  color: #5F71B0;
+  text-decoration: none;
+}
+
+.content h4{
+  margin-bottom: 10px;
+}
+
+.project p{
+  margin: 5px 0px 20px;
+}
+
+.list-link{
+  display: inline-block;
+  padding: 5px 20px;
+  background: #ececec;
+  border-radius: 2px;
+  font-weight: 600;
+  margin-right: 4px;
+  cursor: pointer;
+}
+
+.list-link a{
+  color: #333;
+}
+
+
+.list-link:hover {
+  background: #5F71B0;
+}
+
+.list-link:hover a{
+  color: white;
+}
