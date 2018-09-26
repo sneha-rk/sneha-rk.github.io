@@ -61,6 +61,11 @@ body{
   text-align: center;
 }
 
+.center {
+    text-align: center;
+    border: 3px solid green;
+}
+
 .center-content-scroll{
   box-sizing: border-box;
   overflow-y: auto;
